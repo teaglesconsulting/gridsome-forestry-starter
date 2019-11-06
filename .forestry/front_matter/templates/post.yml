@@ -1,5 +1,5 @@
 ---
-label: Journal
+label: Post
 hide_body: false
 fields:
 - type: text
@@ -36,4 +36,4 @@ fields:
   label: Author
   default: Nichlas W. Andersen
 pages:
-- journal/macos-development-environment.md
+- content/posts/macos-development-environment.md

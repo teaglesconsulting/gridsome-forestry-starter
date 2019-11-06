@@ -1,0 +1,9 @@
+{
+  "siteName": "Starter",
+  "siteDescription": "Teagles Website Starter",
+  "siteUrl": "https: //starter.teagles.io",
+  "googleAnalyticsId": "UA-#####-#",
+  "heroTitle": "Teagles Website Starter",
+  "heroSubtitle": "a starting template for new websites based on Gridsome",
+  "footer": "Copyright &copy; 2019"
+}

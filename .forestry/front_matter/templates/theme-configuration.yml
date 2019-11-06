@@ -31,4 +31,4 @@ fields:
   name: dark_mode
   label: Dark mode
 pages:
-- data/theme.json
+- config/site.json

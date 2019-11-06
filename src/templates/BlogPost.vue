@@ -18,7 +18,7 @@
               <span class="label">Time</span>
               <span>{{ $page.post.timeToRead }} min read</span>
             </div>
-          </div>          
+          </div>
         </div>
 
         <JournalContent :content="$page.post.content" />
@@ -29,8 +29,8 @@
 </template>
 
 <page-query>
-query JournalPost ($path: String!) {
-  post: journalPost (path: $path) {
+query BlogPost ($path: String!) {
+  post: blogPost (path: $path) {
     title
     author
     date (format: "D. MMMM YYYY")

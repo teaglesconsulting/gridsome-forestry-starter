@@ -1,15 +1,21 @@
 {
-  "name": "itsnwa.com",
+  "name": "teagles-website-starter",
   "private": true,
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop",
+    "develop": "gridsome develop -p 5000",
     "explore": "gridsome explore"
   },
-  "dependencies": {
-    "@gridsome/remark-prismjs": "0.1.0",
-    "@gridsome/source-filesystem": "^0.5.0",
-    "@gridsome/transformer-remark": "^0.3.2",
-    "gridsome": "^0.6.7"
+  "devDependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/remark-prismjs": "^0.3.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.4.0",
+    "bulma": "^0.8.0",
+    "gridsome": "^0.7.10",
+    "gridsome-plugin-pug": "^0.0.3",
+    "node-sass": "^4.13.0",
+    "pug": "^2.0.4",
+    "sass-loader": "^8.0.0"
   }
 }
